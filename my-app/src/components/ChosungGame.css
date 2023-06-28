@@ -1,0 +1,66 @@
+/* ChosungGame.css */
+
+body {
+  background-color: #79E5CB; /* 펄 아쿠아 그린 */
+  font-family: 'Nanum Pen Script', cursive; /* 나눔손글씨체 폰트 적용 */
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px; /* 폰트 크기 36px로 키움 */
+}
+
+button {
+  font-size: 25px; /* 버튼 폰트 크기 18px로 키움 */
+  background-color: #52c0a6; /* 약간 더 진한 배경색 */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+button:hover {
+  background-color: #2ba488; /* 마우스 커서를 올렸을 때 더 진한 배경색 */
+}
+
+.score {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    padding: 0px 100px;
+}
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #12a17f;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.endgame {
+    font-size: 40px;
+    font-weight: 550;
+}
+  
+  
+   
