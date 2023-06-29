@@ -143,7 +143,7 @@ const ChosungGame = () => {
           <div>
             <p className="score">내 점수: {score}</p>
           </div>
-          <div>
+          <div className='gamecontents'>
             <p>초성: {chosung}</p>
             <p>힌트: {hint}</p>
             <p>남은 시간: {time} sec</p>
